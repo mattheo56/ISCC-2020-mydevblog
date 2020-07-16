@@ -1,0 +1,224 @@
+@font-face{ font-family: "1";  src: url("Gient.otf");
+    font-family: "1";
+    src: url("3d.ttf");
+    font-size: 10px;
+    background-color: #b214c0;
+}
+.container {
+    width: 750px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    margin: auto;
+}
+
+header
+{
+    text-align: center;
+}
+nav>ul>a
+{
+    font-family: "1";
+}
+html
+{
+    background-image:url("texture-header.jpg");
+    background-size: auto 150px;
+    
+}
+
+footer
+
+{
+    background-image: url("champions.jpeg");
+    background-size: auto 50px;
+}
+
+footer.vertical-list-centered 
+{   z-index: 2;
+    position:relative;
+    left: -25%;
+    top: 25%;
+}
+
+footer li
+{
+color: #E2BB20;
+
+}
+
+.container p{font-family: "1";}
+
+@font-face{  font-family: "Titre";   src: url("Gient.otf");}
+h1{
+    font-family: "Titre";
+    font-size: 30px;
+    color: #f7f7f7;
+    background-color: #855494;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2px;
+}
+@font-face {    font-family: "Titre 2"; src: url("Gient.otf");}
+h2{
+    background-image: url("fond-rose.jpg");
+    font-family: "Titre 2";
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 5px 2px rgb(253, 252, 250);
+    color: #855494;
+    text-align: left;
+    
+}
+@font-face{ font-family: "texte acceuil"; src: url("Gient.otf")}
+h3{
+    font-family:"texte acceuil" ;
+    font-size: 15px; 
+    color: black;
+    text-align: left;
+}
+@font-face{ font-family: "Texte Portugal"; src: url("Gient.otf")}
+h4{
+    font-family:"texte Portugal" ;
+    font-size: 15px; 
+    color: black;
+    text-align: under;
+}
+
+
+@font-face { font-family: "texte acceuil"; src: url("new.otf")}
+h5{  
+    font-family:"texte acceuil" ;
+    font-size: 15px; 
+    color: black;
+    text-align: left;
+    src: url("new.otf")
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav {
+    background-color: #855494;
+    padding-right: 50px;
+    margin: 0px;
+    text-align: left;
+    vertical-align: left;
+}
+nav > ul > a {
+    color: white
+}
+nav a:hover {
+    color: #3e1db3;
+    font-weight: bold;
+}
+ul {
+    margin:0px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+}
+thead, tbody { display: block; }
+tbody {
+    height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 480px;
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+    display: block; 
+    max-height: 480px; 
+    overflow-y: scroll;
+    background-color: rgb(214, 216, 96);
+}
+table {
+    width: 75%;
+    display:block;
+    height: 35%;
+}
+ thead {
+     display: inline-block;
+     width: 100%;
+     height: 20px;
+     height: 30px;
+     background-color: rgb(120, 167, 182);
+     display: table; 
+     width: calc(100% - 17px); 
+    }
+    table, td {
+      border-collapse: collapse;
+      border: 1px solid rgb(39, 112, 117);
+      margin: auto;
+    }
+    th, td {
+      width: 33.33%; 
+      padding: 5px;
+      word-break: break-all; 
+    }
+    tr {
+      display: table; 
+      width: 100%;
+      box-sizing: border-box; 
+    }
+    td {
+        text-align: center;
+        border-bottom: none;
+        border-left: none;
+      } 
+      input[type=text], select, textarea {
+        width: 100%; 
+        padding: 8px; 
+        border: 2px solid #e6e6e6; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical;
+        font-family :"OpenSans";
+        src: url("OpenSans.ttf");
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       }
+       input[type=submit] {
+        background-color: #17c1ff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family :"OpenSans";
+        src: url("OpenSans.ttf");
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+       input[type=submit]:hover {
+        background-color: #27d1ff;
+        box-shadow: inset 5px 2px lightgray;
+        margin: auto;
+        }
+       .containerbis {
+        border:solid;
+        border-radius: 2px;
+        border-color: #e6e6e6;
+        padding: 8px;
+        width: 300px;
+        font-family :"OpenSans";
+        src: url("OpenSans.ttf");
+        margin-left: auto ;
+        margin-right: auto;
+       }
+       textarea{
+        font-family :"OpenSans";
+        src: url("OpenSans.ttf");
+       }
